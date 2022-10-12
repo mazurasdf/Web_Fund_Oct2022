@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+#displayTitle{
+    color: green;
+}
+
+.moreSpace{
+    margin: 50px;
+}
+
+#box{
+    height: 200px;
+    width: 50%;
+    border: 3px solid black;
+    margin: 0px auto;
+    /* margin: 75px;
+    padding: 25px; */
+    /* padding-bottom: 20px;
+    padding-left: 50px; */
+    /* padding: 100px 20px; */
+}
+
+#box > h2{
+    display: inline-block;
+}
+
+#leftHalf{
+    height: 100%;
+    width: 49%;
+    background-color: darkolivegreen;
+    display: inline-block;
+}
+
+#rightHalf{
+    height: 100%;
+    width: 49%;
+    background-color: orange;
+    display: inline-block;
+}
