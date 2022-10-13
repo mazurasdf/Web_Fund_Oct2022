@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    height: 350px;
+    width: 350px;
+    background-color: orchid;
+    border: 2px solid black;
+    position: relative;
+    /* top, bottom, left, right */
+    top: 250px;
+    right: 30px;
+    /* z-index: -1; */
+}
+
+#innerBox{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+body{
+    padding-bottom: 100px;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: cadetblue;
+    border-bottom: 2px solid black;
+
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+nav > h1, .subHeader > h1{
+    text-align: center;
+}
+
+.subHeader{
+    height: 75px;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: lightpink;
+    position: sticky;
+    top: 100px;
+    /* bottom: 0px; */
+}
