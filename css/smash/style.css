@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+}
+
+nav{
+    width: 50px;
+    height: 100vh;
+    background-color: blueviolet;
+    position: fixed;
+    left: 0px;
+}
+
+main{
+    margin-left: 50px;
+    width: calc(100%-50px);
+}
+
+#banner{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("imgs/bannerBG.png");
+    background-color: #292d31;
+}
+
+#bannerBox{
+    width: 375px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#logo{
+    width: 80%;
+}
+
+#pinkLine{
+    width: 20%;
+    height: 4px;
+    background-color: orchid;
+}
+
+#bannerBox > h2{
+    color: grey;
+}
+
+#bannerBox button{
+    background-color: #3870e0;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+#message{
+    width: 100%;
+    height: 65px;
+    background-color: #3870e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#message a{
+    color: white;
+}
+
+#tournamentsBody{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+#myTournaments{
+    width: 100%;
+}
+
+#myTournamentsHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#flexTournaments{
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleTournament{
+    height: 100%;
+    width: 49%;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
